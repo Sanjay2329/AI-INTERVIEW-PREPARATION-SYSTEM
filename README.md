@@ -173,6 +173,7 @@ OPENAI_API_KEY=your_openai_api_key
 ---
 
 🖥️ Screenshots
+
 🏠 Home Page
 <img width="1285" height="797" alt="image" src="https://github.com/user-attachments/assets/949796a2-77f3-4f96-853f-ade4578f1475" />
 
