@@ -172,19 +172,15 @@ OPENAI_API_KEY=your_openai_api_key
 
 ---
 
-# 🖥️ Screenshots
-
-## 🏠 Home Page
-_Add Screenshot Here_
-
-## 📊 Dashboard
-_Add Screenshot Here_
-
-## 📄 Resume Upload
-_Add Screenshot Here_
-
-## 🤖 AI Interview
-_Add Screenshot Here_
+🖥️ Screenshots
+🏠 Home Page
+image
+📊 Dashboard
+image
+📄 Resume Upload
+image
+🤖 AI Interview
+image
 
 ---
 
