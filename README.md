@@ -1,57 +1,77 @@
-🚀 AI Interview Preparation System
+# 🚀 AI Interview Preparation System
 
 An AI-powered interview preparation platform that helps students and job seekers improve their technical and HR interview skills through intelligent question generation, resume analysis, analytics, and personalized feedback.
 
-📌 Features
-👤 Authentication
-User Signup & Login
-JWT Authentication
-Secure Password Hashing
-Protected Routes
-📄 Resume Analyzer
-Upload Resume (PDF/DOCX)
-Automatic Skill Extraction
-ATS Score Analysis
-Resume Evaluation
-🤖 AI Interview Generator
-HR Questions
-Technical Questions
-Aptitude Questions
-Skill-Based Interview Generation
-📊 Analytics Dashboard
-Performance Tracking
-Interview History
-Score Visualization
-Progress Monitoring
-🧠 AI Feedback System
-Answer Evaluation
-Confidence Analysis
-Communication Scoring
-Improvement Suggestions
-📥 PDF Report Generation
-Download Interview Reports
-AI Feedback Summary
-Performance Analytics
-🛠️ Tech Stack
-Frontend
-React.js
-Tailwind CSS
-Framer Motion
-Axios
-React Router DOM
-Backend
-Node.js
-Express.js
-MongoDB
-JWT Authentication
-Multer
-AI Integration
-OpenAI API
-Deployment
-Vercel
-Render
-MongoDB Atlas
-📂 Folder Structure
+---
+
+# 📌 Features
+
+## 👤 Authentication
+- User Signup & Login
+- JWT Authentication
+- Secure Password Hashing
+- Protected Routes
+
+## 📄 Resume Analyzer
+- Upload Resume (PDF/DOCX)
+- Automatic Skill Extraction
+- ATS Score Analysis
+- Resume Evaluation
+
+## 🤖 AI Interview Generator
+- HR Questions
+- Technical Questions
+- Aptitude Questions
+- Skill-Based Interview Generation
+
+## 📊 Analytics Dashboard
+- Performance Tracking
+- Interview History
+- Score Visualization
+- Progress Monitoring
+
+## 🧠 AI Feedback System
+- Answer Evaluation
+- Confidence Analysis
+- Communication Scoring
+- Improvement Suggestions
+
+## 📥 PDF Report Generation
+- Download Interview Reports
+- AI Feedback Summary
+- Performance Analytics
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- Tailwind CSS
+- Framer Motion
+- Axios
+- React Router DOM
+
+## Backend
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- Multer
+
+## AI Integration
+- OpenAI API
+
+## Deployment
+- Vercel
+- Render
+- MongoDB Atlas
+
+---
+
+# 📂 Folder Structure
+
+```bash
 ai-interview-prep-system/
 │
 ├── client/
@@ -75,79 +95,134 @@ ai-interview-prep-system/
 ├── README.md
 ├── package.json
 └── .env
-⚙️ Installation
-1️⃣ Clone Repository
+```
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/yourusername/ai-interview-prep-system.git
 cd ai-interview-prep-system
-2️⃣ Frontend Setup
+```
+
+---
+
+## 2️⃣ Frontend Setup
+
+```bash
 cd client
 npm install
 npm run dev
-3️⃣ Backend Setup
+```
+
+---
+
+## 3️⃣ Backend Setup
+
+```bash
 cd server
 npm install
 npm run server
-🔑 Environment Variables
+```
 
-Create a .env file inside the server folder and add the following:
+---
 
+# 🔑 Environment Variables
+
+Create a `.env` file inside the `server` folder and add the following:
+
+```env
 PORT=5000
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
 OPENAI_API_KEY=your_openai_api_key
-📡 API Routes
-Authentication Routes
-Method	Endpoint	Description
-POST	/api/auth/register	Register User
-POST	/api/auth/login	Login User
-Resume Routes
-Method	Endpoint	Description
-POST	/api/resume/upload	Upload Resume
-Interview Routes
-Method	Endpoint	Description
-POST	/api/interview/generate	Generate Interview Questions
-POST	/api/interview/submit	Submit Interview Answers
-GET	/api/interview/history	Get Interview History
-🖥️ Screenshots
-🏠 Home Page
+```
 
-Add Screenshot Here
+---
 
-📊 Dashboard
+# 📡 API Routes
 
-Add Screenshot Here
+## Authentication Routes
 
-📄 Resume Upload
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| POST | `/api/auth/register` | Register User |
+| POST | `/api/auth/login` | Login User |
 
-Add Screenshot Here
+---
 
-🤖 AI Interview
+## Resume Routes
 
-Add Screenshot Here
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| POST | `/api/resume/upload` | Upload Resume |
 
-🌟 Future Enhancements
-🎤 Voice-Based Interviews
-🤖 AI Avatar Interviewer
-📹 Video Interview Analysis
-🌍 Multi-Language Support
-📱 Mobile App Version
-📈 Project Highlights
-✅ Full Stack MERN Application
-✅ AI-Powered Features
-✅ Resume Parsing System
-✅ Analytics Dashboard
-✅ Secure Authentication
-✅ Professional UI Design
-👨‍💻 Author
-SANJAY
+---
 
-B.Tech Artificial Intelligence and Data Science Student
+## Interview Routes
+
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| POST | `/api/interview/generate` | Generate Interview Questions |
+| POST | `/api/interview/submit` | Submit Interview Answers |
+| GET | `/api/interview/history` | Get Interview History |
+
+---
+
+# 🖥️ Screenshots
+
+## 🏠 Home Page
+_Add Screenshot Here_
+
+## 📊 Dashboard
+_Add Screenshot Here_
+
+## 📄 Resume Upload
+_Add Screenshot Here_
+
+## 🤖 AI Interview
+_Add Screenshot Here_
+
+---
+
+# 🌟 Future Enhancements
+
+- 🎤 Voice-Based Interviews
+- 🤖 AI Avatar Interviewer
+- 📹 Video Interview Analysis
+- 🌍 Multi-Language Support
+- 📱 Mobile App Version
+
+---
+
+# 📈 Project Highlights
+
+- ✅ Full Stack MERN Application
+- ✅ AI-Powered Features
+- ✅ Resume Parsing System
+- ✅ Analytics Dashboard
+- ✅ Secure Authentication
+- ✅ Professional UI Design
+
+---
+
+# 👨‍💻 Author
+
+## SANJAY
+**B.Tech Artificial Intelligence and Data Science Student**  
 Frontend Developer | AI Enthusiast | MERN Stack Developer
 
-📜 License
+---
 
-This project is licensed under the MIT License.
+# 📜 License
 
-⭐ Support
+This project is licensed under the **MIT License**.
+
+---
+
+# ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
