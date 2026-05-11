@@ -1,5 +1,6 @@
 🚀 AI Interview Preparation System
-An AI-powered interview preparation platform that helps students and job seekers improve technical and HR interview skills through intelligent question generation, resume analysis, analytics, and personalized feedback.
+
+An AI-powered interview preparation platform that helps students and job seekers improve their technical and HR interview skills through intelligent question generation, resume analysis, analytics, and personalized feedback.
 
 📌 Features
 👤 Authentication
@@ -75,42 +76,55 @@ ai-interview-prep-system/
 ├── package.json
 └── .env
 ⚙️ Installation
-Clone Repository
+1️⃣ Clone Repository
 git clone https://github.com/yourusername/ai-interview-prep-system.git
-Frontend Setup
+cd ai-interview-prep-system
+2️⃣ Frontend Setup
 cd client
 npm install
 npm run dev
-Backend Setup
+3️⃣ Backend Setup
 cd server
 npm install
 npm run server
 🔑 Environment Variables
-Create a .env file inside the server folder.
+
+Create a .env file inside the server folder and add the following:
 
 PORT=5000
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
-OPENAI_API_KEY=your_api_key
+OPENAI_API_KEY=your_openai_api_key
 📡 API Routes
-Authentication
-POST /api/auth/register
-POST /api/auth/login
-Resume
-POST /api/resume/upload
-Interview
-POST /api/interview/generate
-POST /api/interview/submit
-GET  /api/interview/history
+Authentication Routes
+Method	Endpoint	Description
+POST	/api/auth/register	Register User
+POST	/api/auth/login	Login User
+Resume Routes
+Method	Endpoint	Description
+POST	/api/resume/upload	Upload Resume
+Interview Routes
+Method	Endpoint	Description
+POST	/api/interview/generate	Generate Interview Questions
+POST	/api/interview/submit	Submit Interview Answers
+GET	/api/interview/history	Get Interview History
 🖥️ Screenshots
 🏠 Home Page
-image
+
+Add Screenshot Here
+
 📊 Dashboard
-image
+
+Add Screenshot Here
+
 📄 Resume Upload
-image
+
+Add Screenshot Here
+
 🤖 AI Interview
-image
+
+Add Screenshot Here
+
 🌟 Future Enhancements
 🎤 Voice-Based Interviews
 🤖 AI Avatar Interviewer
@@ -124,14 +138,16 @@ image
 ✅ Analytics Dashboard
 ✅ Secure Authentication
 ✅ Professional UI Design
-
 👨‍💻 Author
 SANJAY
+
 B.Tech Artificial Intelligence and Data Science Student
 Frontend Developer | AI Enthusiast | MERN Stack Developer
 
 📜 License
+
 This project is licensed under the MIT License.
 
 ⭐ Support
-If you like this project, give it a ⭐ on GitHub.
+
+If you like this project, give it a ⭐ on GitHub!
