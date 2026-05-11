@@ -174,13 +174,17 @@ OPENAI_API_KEY=your_openai_api_key
 
 🖥️ Screenshots
 🏠 Home Page
-image
+<img width="1285" height="797" alt="image" src="https://github.com/user-attachments/assets/949796a2-77f3-4f96-853f-ade4578f1475" />
+
 📊 Dashboard
-image
+<img width="1008" height="667" alt="image" src="https://github.com/user-attachments/assets/635032e6-cdb6-41cc-ace6-bd04fa8a52de" />
+
 📄 Resume Upload
-image
+<img width="1006" height="665" alt="image" src="https://github.com/user-attachments/assets/4bebff53-5b3d-4688-95e3-b02511693522" />
+
 🤖 AI Interview
-image
+<img width="1006" height="660" alt="image" src="https://github.com/user-attachments/assets/2cdb725e-c1d7-4980-ae96-570cbcc87b76" />
+
 
 ---
 
